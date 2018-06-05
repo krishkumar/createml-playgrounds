@@ -23,6 +23,7 @@ CreateML Playgrounds need OS X Mojave.
 - [Create ML : Apple Developer][d8f80357]
 - [Movie Review Data provided by Cornell University Computer Science Department][e3c1bb59]
 - [Image data provided by Unsplash][d6a78dfa]
+
   [d8f80357]: https://developer.apple.com/documentation/create_ml "Create ML : Apple Developer"
 
   [e3c1bb59]: http://www.cs.cornell.edu/people/pabo/movie-review-data/ "Movie Review Data provided by Cornell University Computer Science Department"
