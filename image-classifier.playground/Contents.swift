@@ -15,6 +15,8 @@ builder.showInLiveView()
 
 // Tested on following datasets
 
+// 3. Chest X-Ray Images (Pneumonia) Dataset from Kaggle (https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
 // 2. Fruits 360 Dataset from Kaggle (https://www.kaggle.com/moltean/fruits)
 
 // 1. Unsplash dog-cat images (https://unsplash.com)
