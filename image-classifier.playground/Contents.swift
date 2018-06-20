@@ -15,6 +15,8 @@ builder.showInLiveView()
 
 // Tested on following datasets
 
+// 4. Flowers Dataset from Kaggle (https://www.kaggle.com/alxmamaev/flowers-recognition/version/1)
+
 // 3. Chest X-Ray Images (Pneumonia) Dataset from Kaggle (https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
 // 2. Fruits 360 Dataset from Kaggle (https://www.kaggle.com/moltean/fruits)

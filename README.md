@@ -14,8 +14,12 @@ CreateML Playgrounds need OS X Mojave.
 - [image-classifier](image-classifier.playground)
 
 ![dog-cat-classifier](dog-cat-classifier.png)
+
 ![fruit-classifier](fruit-classifier.png)
+
 ![chest-xray-pneumonia-classifier](chest-xray-pneumonia-classifier.png)
+
+![flower-classifier](flower-classifier.png)
 
 - [Movie Review Sentiment Classifier](movie-review-sentiment-classifier.playground)
 
@@ -29,17 +33,21 @@ CreateML Playgrounds need OS X Mojave.
 
 - [chest-xray-pneumonia-classifier](models/ChestXrayPneumoniaClassifier.mlmodel) (Accuracy - 93%,Training Time - 6 minutes, Size - 20 KB)
 
+- [flower-classifier](models/FlowerClassifier.mlmodel) (Accuracy - 93%,Training Time - 4 minutes, Size - 70 KB)
+
 Training Machine - Mac Pro 6-core with 64 GB RAM, dual AMD D700s.
 
 ### Datasets
 
 - [Chest X-Ray Images (Pneumonia) 5,863 images (Source: Kaggle)][aaef79c3]
 - [A dataset with 65 fruits and 43329 images (Source: Kaggle)][dab38c66]
+- [Flowers Dataset with 4242 images (Source: Kaggle)][d2561765]
 - [movie-review-data training](train-movie-reviews.zip)
 - [movie-review-data test](test-movie-reviews.zip)
 - [dog-cat-data](dog-cat-data.zip)
 
   [aaef79c3]: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia "Chest X-Ray Images (Pneumonia) 5,863 images (Source: Kaggle)"
+  [d2561765]: https://www.kaggle.com/alxmamaev/flowers-recognition "Flowers Dataset from Kaggle (4242 images)"
 
 ### References
 
