@@ -8,9 +8,9 @@ CreateML Playgrounds need OS X Mojave.
 
 ### 📹 Demo Video
 
-Training image classifiers is as easy as creating sticker packs. Just drag and drop images. 
+Training image classifiers is as easy as creating sticker packs. Just drag and drop images.
 
-See the video - [How to Train & Test Image Classifier Using Create ML Playgrounds](dog-cat-classifier-demo.mp4)
+![How to Train & Test Image Classifier Using Create ML Playgrounds](dog-cat-classifier-demo.gif)
 
 ### Playgrounds
 
