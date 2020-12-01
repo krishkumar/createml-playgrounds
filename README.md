@@ -1,44 +1,44 @@
 ## Create ML Playgrounds
 
-Xcode playgrounds for training, evaluating machine learning models.
+Xcode playgrounds to script and automate ML model training, evaluation and prediction.
 
-Written by [krishna](https://blackwaterparkstudios.com).
+Written by [krishna](https://magicive.com).
 
 CreateML Playgrounds need OS X Mojave.
 
-### 📹 Demo Video
+Includes examples for [MLImageClassifier](https://developer.apple.com/documentation/createml/mlimageclassifier) and [MLTextClassifier](https://developer.apple.com/documentation/createml/mltextclassifier)
 
-Training image classifiers is as easy as creating sticker packs. Just drag and drop images.
+### Playgrounds 
 
-![How to Train & Test Image Classifier Using Create ML Playgrounds](dog-cat-classifier-demo.gif)
+- [Dog Cat Image Classifier](image-classifier.playground)
 
-### Playgrounds
+- [Movie Review Text Sentiment Classifier](movie-review-sentiment-classifier.playground)
 
-- [image-classifier](image-classifier.playground)
-
-![dog-cat-classifier](images/dog-cat-classifier.png)
-
-![fruit-classifier](images/fruit-classifier.png)
-
-![chest-xray-pneumonia-classifier](images/chest-xray-pneumonia-classifier.png)
-
-![flower-classifier](images/flower-classifier.png)
-
-- [Movie Review Sentiment Classifier](movie-review-sentiment-classifier.playground)
-
-![movie-review-sentiment-classifier](images/movie-review-sentiment-classifier.png)
 
 ### Trained Models
 
-- [DogCatClassifier](models/DogCatClassifier.mlmodel) (Accuracy - 100%, Training Time - ~1 second, Size - 17 KB)
-- [FruitClassifier](models/FruitClassifier.mlmodel) (Accuracy - TBD,Training Time - 35 minutes, Size - 1.1 MB)
-- [movie-review-sentiment-classifier](models/movie-review-sentiment.mlmodel) (Accuracy - 99%,Training Time - 15 seconds, Size - 774 KB)
+![dog-cat-classifier](images/dog-cat-classifier.png)
 
-- [chest-xray-pneumonia-classifier](models/ChestXrayPneumoniaClassifier.mlmodel) (Accuracy - 93%,Training Time - 6 minutes, Size - 20 KB)
+- [DogCatClassifier](models/DogCatClassifier.mlmodel)
 
-- [flower-classifier](models/FlowerClassifier.mlmodel) (Accuracy - 93%,Training Time - 4 minutes, Size - 70 KB)
 
-Training Machine - Mac Pro 6-core with 64 GB RAM, dual AMD D700s.
+![fruit-classifier](images/fruit-classifier.png)
+
+- [FruitClassifier](models/FruitClassifier.mlmodel)
+
+![movie-review-sentiment-classifier](images/movie-review-sentiment-classifier.png)
+
+- [movie-review-sentiment-classifier](models/movie-review-sentiment.mlmodel)
+
+![chest-xray-pneumonia-classifier](images/chest-xray-pneumonia-classifier.png)
+
+- [chest-xray-pneumonia-classifier](models/ChestXrayPneumoniaClassifier.mlmodel) 
+
+![flower-classifier](images/flower-classifier.png)
+
+- [flower-classifier](models/FlowerClassifier.mlmodel)
+
+Training Machine - M1 Mac Mini with 16 GB RAM.
 
 ### Datasets
 

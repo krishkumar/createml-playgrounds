@@ -3,17 +3,36 @@
 //  Copyright © 2018 Krishna Kumar. All rights reserved.
 //
 import Cocoa
-import CreateMLUI
+import CreateML
+import CoreML
 
 var str = "Hello, image classifier"
 
-let builder = MLImageClassifierBuilder()
-builder.showInLiveView()
+// 1. Unsplash dog-cat images (https://unsplash.com)
 
-// Step 1: Drag and Drop training images
-// Step 2: Drag and Drop validation images
+// setup training data
+let trainSet = URL(fileURLWithPath: "/Users/krishna/Desktop/dog-cat-data/training-data")
+let testSet = URL(fileURLWithPath: "/Users/krishna/Desktop//dog-cat-data/testing-data")
 
-// Tested on following datasets
+// setup classifier
+
+let classifier = try MLImageClassifier(trainingData: .labeledDirectories(at: trainSet))
+let trainingErrorRate = classifier.trainingMetrics.classificationError * 100
+let validationErrorRate = classifier.validationMetrics.classificationError * 100
+
+// evaluate
+let evaluationMetrics = classifier.evaluation(on: .labeledDirectories(at: testSet))
+let errorRate = evaluationMetrics.classificationError * 100
+
+// write model
+let metadata = MLModelMetadata(author: "Krishna Kumar", shortDescription: "Machine Learning Model for predicting dog and cat images", version: "1.0.0")
+try classifier.write(to: URL(fileURLWithPath: "/Users/krishna/Desktop/DogCatClassifier.mlmodel"), metadata: metadata)
+
+// test predictions
+let prediction = try classifier.prediction(from: URL(fileURLWithPath: "/Users/krishna/Desktop/insert-your-image-here.jpg"))
+print(prediction)
+
+// Other datasets
 
 // 4. Flowers Dataset from Kaggle (https://www.kaggle.com/alxmamaev/flowers-recognition/version/1)
 
